@@ -1,0 +1,180 @@
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lucida Sans',sans-serif;
+}
+
+header li 
+{
+    display: inline;
+    margin-left: 16px;
+}
+
+header li a
+{
+    color: white;
+    text-decoration:overline;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:monospace
+}
+
+body header h1
+{
+    color: white;
+    margin-left: 15vw;
+    font-family:monospace
+}
+
+body header nav
+{
+    margin-right: 15vw;
+}
+
+body > header 
+{
+    background-color: black;
+    padding: 16px 0;
+    position: fixed;
+    width: 100vw;
+}
+
+#tech h2
+{
+    margin-top: 4rem;
+}
+
+header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.article article img 
+{
+    height: 250px;
+    width: 450px;
+}
+
+.article article 
+{
+    width: 450px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article article .link a
+{
+    margin-left: 30px;
+}
+
+section
+{
+    padding: 16px 0;
+}
+
+section time
+{
+    color: rgb(70, 69, 69);
+}
+
+h2
+{
+    margin-left: 15vw;
+    color: whitesmoke;
+    font-family:monospace;
+    font-size: 40px;
+}
+
+section h2,
+.article article
+{
+    margin-bottom: 20px;
+}
+
+.article article h3
+{
+    text-align: justify;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.article article a
+{
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}   
+
+.article article a:hover
+{
+    text-decoration: underline;
+}
+
+.article article p
+{
+    text-align: justify;
+    font-size: 20px;
+} 
+
+.article article h3 
+{
+    font-size: 24px;
+}
+
+#body #tech
+{
+    background-color: #5000b179;
+}
+
+#body #economy
+{
+    background-color: #3000b179;
+}
+
+#body #geek
+{
+    background-color: #1000b179;
+}
+
+#body #sports
+{
+    background-color: #000cb179;
+}
+
+#tech .article article a
+{
+    background-color: red;
+}
+
+#economy .article article a
+{
+    background-color: rgb(255, 23, 0);
+}
+
+#geek .article article a
+{
+    background-color: rgb(255, 43, 0);
+}
+
+#sports .article article a
+{
+    background-color: rgb(255, 63, 0);
+}
